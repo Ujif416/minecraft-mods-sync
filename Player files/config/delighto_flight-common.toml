@@ -1,0 +1,6 @@
+#Delight'o Flight Setting
+[Settings]
+	#The damage of current from arc effect.
+	# Default: 3
+	# Range: > 0
+	thunderDamage = 3

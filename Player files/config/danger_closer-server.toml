@@ -1,0 +1,18 @@
+#Whether the mod functions.
+enabled = true
+#Torches ignite entities?
+torches_burn = false
+#Soul Torches ignite entities?
+soul_torches_burn = false
+#Campfires ignite entities?
+campfires_burn = true
+#Soul Campfires ignite entities?
+soul_campfires_burn = true
+#Stonecutters hurt entities?
+stonecutters_cut = true
+#Being close to a Blaze ignites entities?
+enable_blaze_damage = true
+#Being hurt by a Magma Cube ignites entities?
+enable_magma_cube_damage = false
+#Magma Blocks ignite entities?
+enable_magma_block_damage = true

@@ -1,0 +1,11 @@
+[
+  {
+    "identifier": "modpack_introduction",
+    "schedule": "on_first_join",
+    "type": "chat",
+    "repeats": false,
+    "pack_intro": true,
+    "link": "https://www.bisecthosting.com/lupin?r=automessage",
+    "text": "§2Thank you very much for downloading Create Aeronautics: Skybound§f \n §aDid you know that this modpack can be played in multiplayer? Click here to purchase a server and play with your friends.§f \n§cDon't worry, this message will not appear again.§f"
+  }
+]
