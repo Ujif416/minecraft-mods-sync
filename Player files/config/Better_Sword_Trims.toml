@@ -1,0 +1,18 @@
+# Better Sword Trims
+# Configure the swords in the mod.
+# Use '/bst reload' to reload the configuration.
+# Durability only changes by restarting the game. 
+
+[defaults]
+# Configure the durability multiplier. Default: 1.5 (150% durability)
+Durability = 1.5
+# Configure the quartz upgrade experience. Default: 5
+Experience = 5
+# Configure redstone upgrade slowness. Default: 5 seconds / amplifier 1
+Slowness = { duration = 5, amplifier = 1 }
+# Configure the levitation of the emerald upgrade. Default: 4 seconds / amplifier 1
+Levitation = { duration = 4, amplifier = 1 }
+# Configure the glow on mobs for the lapis lazuli upgrade. Default: 45 seconds
+Highlights = { duration = 45 }
+# Set the damage area of the Crying Obsidian upgrade. Default: 3.0
+AreaDamage = { amount = 3.0 }

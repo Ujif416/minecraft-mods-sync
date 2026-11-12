@@ -1,0 +1,24 @@
+#Better Crossbows Configuration File
+[Crossbow_Copper]
+	#Damage dealt by Copper Crossbow (min-max range, e.g., "5-10" means 6 to 11 damage)
+	Damage = "5-10"
+	#Charge speed multiplier (lower = faster, 1.0 = normal crossbow speed)
+	Speed = 1.2
+
+[Crossbow_Golden]
+	#Damage dealt by Golden Crossbow (min-max range)
+	Damage = "4-9"
+	#Charge speed multiplier (lower = faster)
+	Speed = 0.4
+
+[Crossbow_Diamond]
+	#Damage dealt by Diamond Crossbow (min-max range)
+	Damage = "12-17"
+	#Charge speed multiplier (lower = faster)
+	Speed = 0.6
+
+[Crossbow_Netherite]
+	#Damage dealt by Netherite Crossbow (min-max range)
+	Damage = "20-25"
+	#Charge speed multiplier (lower = faster)
+	Speed = 0.4

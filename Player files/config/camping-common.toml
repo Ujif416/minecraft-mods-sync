@@ -1,0 +1,121 @@
+#Cooking food on the grill and roasting marshmallows over the campfire.
+[Grilling]
+	#Food cooked on the grill becomes grilled and fills you up more than normal food.
+	enableGrilling = true
+	#Grilled food shimmers like an enchanted item.
+	enableGrilledGlint = true
+	#How much more grilled food fills you up. 1.0 = like normal food, 1.25 = 25% more.
+	# Default: 1.25
+	# Range: 1.0 ~ 3.0
+	grilledFoodMultiplier = 1.25
+	#How long a marshmallow needs over a campfire at least to reach the next roasting stage. 20 ticks = 1 second.
+	# Default: 40
+	# Range: 10 ~ 600
+	marshmallowRoastDuration = 40
+
+#Sleeping bags and tents.
+[Sleeping]
+	#You get Regeneration when you lie down in a sleeping bag.
+	enableSleepingBagRegeneration = true
+	#Sleeping in a sleeping bag sets your spawn point like a bed does.
+	enableSleepingBagSpawn = false
+	#You can sleep in a tent even when monsters are nearby.
+	enableTentSleepNearMonsters = true
+	#Radius in blocks around a tent where no monsters spawn naturally. 0 = off.
+	# Default: 16
+	# Range: 0 ~ 64
+	tentSafeRange = 16
+	#Monsters that walk into a tent tear it down, if mob griefing is on.
+	enableMonsterTentGriefing = false
+
+#How much fits into each backpack.
+[Backpacks]
+	#How many rows of 8 slots the small backpack has. Items in rows that no longer exist are moved into free slots or handed back to you.
+	# Default: 3
+	# Range: 1 ~ 6
+	smallBackpackMaxRows = 3
+	#How many rows of 8 slots the wanderer bag has. Items in rows that no longer exist are moved into free slots or handed back to you.
+	# Default: 3
+	# Range: 1 ~ 6
+	wandererBagMaxRows = 3
+	#How many rows of 8 slots the sheepbag has. Items in rows that no longer exist are moved into free slots or handed back to you.
+	# Default: 4
+	# Range: 1 ~ 6
+	sheepbagMaxRows = 4
+	#How many rows of 8 slots the goodybag has. Items in rows that no longer exist are moved into free slots or handed back to you.
+	# Default: 4
+	# Range: 1 ~ 6
+	goodybagMaxRows = 4
+	#How many rows of 8 slots the wanderer backpack has. Items in rows that no longer exist are moved into free slots or handed back to you.
+	# Default: 5
+	# Range: 1 ~ 6
+	wandererBackpackMaxRows = 5
+	#How many rows of 8 slots the large backpack has. Items in rows that no longer exist are moved into free slots or handed back to you.
+	# Default: 6
+	# Range: 1 ~ 6
+	largeBackpackMaxRows = 6
+
+#Mosquito swarms that hover over water at night.
+[Mosquitoes]
+	#Mosquito swarms hover over water at night in swamps, jungles and along rivers and chase you when you stand near a light source. A lit campfire nearby keeps them away.
+	enableMosquitoes = true
+	#Chance in percent that a mosquito swarm shows up near you, checked every 10 seconds.
+	# Default: 25
+	# Range: 0 ~ 100
+	mosquitoChance = 25
+	#How many mosquito swarms can be around you at once.
+	# Default: 2
+	# Range: 1 ~ 6
+	mosquitoMaxPerPlayer = 2
+	#Mosquitoes can bite you and make you itchy. It does no damage, you just scratch yourself now and then.
+	enableItchyEffect = true
+	#How long one spray of Mosquito Repellent keeps mosquitoes away. 20 ticks = 1 second.
+	# Default: 6000
+	# Range: 200 ~ 24000
+	repellentDuration = 6000
+
+#Info panels that show up when you look at blocks. Only affects your own screen.
+["Info Tooltips"]
+	#Shows sleeping bags and controls when you look at a tent.
+	showTentInfo = true
+	#Shows the food on the grill and controls when you look at a grill.
+	showGrillInfo = true
+
+#Hunger and saturation of the food items. Changes need a game restart.
+[Food]
+	#Hunger points restored by Marshmallow. 2 points = 1 drumstick.
+	# Default: 2
+	# Range: 0 ~ 20
+	marshmallowNutrition = 2
+	#Saturation given by Marshmallow, multiplied with its hunger points.
+	# Default: 0.1
+	# Range: 0.0 ~ 2.0
+	marshmallowSaturation = 0.1
+	#How long the Speed effect of Marshmallow lasts. 20 ticks = 1 second.
+	# Default: 20
+	# Range: 0 ~ 72000
+	marshmallowEffectDuration = 20
+	#Hunger points restored by Roasted Marshmallow. 2 points = 1 drumstick.
+	# Default: 3
+	# Range: 0 ~ 20
+	roastedMarshmallowNutrition = 3
+	#Saturation given by Roasted Marshmallow, multiplied with its hunger points.
+	# Default: 0.6
+	# Range: 0.0 ~ 2.0
+	roastedMarshmallowSaturation = 0.6
+	#How long the Speed effect of Roasted Marshmallow lasts. 20 ticks = 1 second.
+	# Default: 80
+	# Range: 0 ~ 72000
+	roastedMarshmallowEffectDuration = 80
+	#How long the Speed effect of a melted marshmallow on a stick lasts. 20 ticks = 1 second.
+	# Default: 400
+	# Range: 0 ~ 72000
+	meltedMarshmallowEffectDuration = 400
+	#How long the Hunger effect of a charred marshmallow on a stick lasts. 20 ticks = 1 second.
+	# Default: 400
+	# Range: 0 ~ 72000
+	charredMarshmallowEffectDuration = 400
+	#How long the Hunger effect of a totally burnt marshmallow on a stick lasts. 20 ticks = 1 second.
+	# Default: 900
+	# Range: 0 ~ 72000
+	totallyBurntMarshmallowEffectDuration = 900

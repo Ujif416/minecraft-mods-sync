@@ -1,0 +1,19 @@
+#This option was created especially for the Create Aeronautics Skybound modpack, but you can use it if you find it useful!
+#A structure will only be allowed to generate at or above the given height.
+#Use "<structure id> <minimum height that structure may generate at>".
+#If a structure is listed more than once, the last entry wins.
+#Example: ["minecraft:mineshaft 0", "minecraft:buried_treasure 120"]
+BlockSpawnHeight = []
+#Deactivate a specific structure. It will never generate, in any dimension.
+#Works with structures added by other mods.
+StructureDisable = []
+#Minimum height for all structures: below this height, no structure will generate anymore.
+#Set to -64 (the default) to disable this.
+# Default: -64
+# Range: -64 ~ 320
+StructureSpawnHeight = -64
+#Some structures (e.g. mineshafts) grow support pillars beneath them to reach solid ground.
+#Over the void there is no ground to reach, so those pillars keep going all the way down to the last layer.
+#When false, those support pillars are capped at 4 blocks long instead of reaching down to the last layer.
+#Works with structures added by other mods.
+InfiniteFoot = false
